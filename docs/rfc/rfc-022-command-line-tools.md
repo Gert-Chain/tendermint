@@ -36,7 +36,7 @@ The subcommands in this group are core to the operation of a consensus node.
   version        Show version info
 ```
 
-### Intrpspection Subcommands
+### Introspection Subcommands
 
 The subcommands in this group help operators inspect the state of a node, and
 to diagnose issues in a running or failed node.
