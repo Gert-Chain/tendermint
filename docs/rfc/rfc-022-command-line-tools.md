@@ -133,11 +133,11 @@ Disadvantages:
 ### Approach 2: Utility Tool
 
 Another approach would be to split some of the "utility" subcommands into a
-separate tool. Rather than having each one become its own `tmutil` program.
-Like the main `tendermint` binary, this tool could use a subcommand structure
-so that operators would not need to download many different programs, but doing
-this would isolate the specialized, dangerous, and non-production ready code
-from the main Tendermint release.
+separate tool. Rather than having each one become its own binary, they would be
+moved to a dedicated `tmutil` program.  Like the main `tendermint` binary, this
+tool could use a subcommand structure so that operators would not need to
+download many different programs, but doing this would isolate the specialized,
+dangerous, and non-production ready code from the main Tendermint release.
 
 Advantages:
 
